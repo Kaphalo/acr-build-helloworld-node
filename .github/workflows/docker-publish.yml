@@ -20,5 +20,5 @@ jobs:
           registry: ${{ secrets.registry }}
           repository: ${{ secrets.repository }}
           dockerfile: Dockerfile
-          tag: v2 
+          tag: ${{.Run.ID}} 
           image: master
