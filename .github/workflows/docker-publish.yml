@@ -19,6 +19,5 @@ jobs:
           tenant: ${{ secrets.tenant }}
           registry: ${{ secrets.registry }}
           repository: ${{ secrets.repository }}
-          dockerfile: Dockerfileshelloacrtasks:v1
-          tag: {{.Run.ID}}
-        
+          dockerfile: Dockerfile
+          tag: helloacrtasks:v2
