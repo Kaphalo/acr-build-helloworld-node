@@ -20,4 +20,5 @@ jobs:
           registry: ${{ secrets.registry }}
           repository: ${{ secrets.repository }}
           dockerfile: Dockerfile
-          tag: helloacrtasks:v2
+          tag: v2 
+          image: master
