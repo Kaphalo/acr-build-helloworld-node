@@ -1,8 +1,11 @@
 name: build_ACR
 on:
   push:
-    paths:
-      - "src/**"
+    branches:
+    - master
+  pull_request:
+    branches:
+    - master
 jobs:
   build:
     runs-on: ubuntu-latest
