@@ -47,7 +47,7 @@ Although intended for use with the companion articles, you can perform the follo
 1. `docker run -d -p 8080:80 helloacrbuild:v1`
 1. Navigate to http://localhost:8080 to view the running application
 
-## Resources
+## Resources req
 
 [Azure Container Registry](https://azure.microsoft.com/services/container-registry/)
 
