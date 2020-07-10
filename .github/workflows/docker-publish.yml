@@ -20,4 +20,4 @@ jobs:
           registry: ${{ secrets.registry }}
           repository: ${{ secrets.repository }}
           dockerfile: Dockerfiles
-          tag: 1.0.0
+          tag: ${{ secrets.repository }} and v1
