@@ -20,4 +20,4 @@ jobs:
           registry: ${{ secrets.registry }}
           repository: ${{ secrets.repository }}
           dockerfile: Dockerfiles
-          tag: ${{ secrets.repository }}
+          tag: helloacrtasks:v1
